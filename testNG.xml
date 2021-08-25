@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SwagLabs Automation Suite">
+
+	<test name="Automation_Test">
+		<parameter name="browserchrome" value="Chrome" />
+		<parameter name="browserfirefox" value="Firefox" />
+		<classes>
+			<class name="com.aequillibrium.tests.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
